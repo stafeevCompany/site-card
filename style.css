@@ -1,0 +1,163 @@
+@font-face {
+  font-family: 'Shihan';
+  src: url("Shihan.otf");
+  
+}
+@font-face {
+  font-family: 'DacikPush';
+  src: url("DacikPush.otf");
+
+}
+*{
+  padding: 0;
+  margin: 0;
+  top: 0;
+  box-sizing: border-box;
+  font-family: "DacikPush";
+}
+body{
+  background: -webkit-linear-gradient(180deg, rgb(58, 1, 75), rgb(0, 0, 0) 43%, rgb(60, 3, 53));
+  background: -moz-linear-gradient(180deg, rgb(58, 1, 75), rgb(0, 0, 0) 43%, rgb(60, 3, 53));
+  background: linear-gradient(180deg, rgb(58, 1, 75), rgb(0, 0, 0) 43%, rgb(60, 3, 53));
+}
+.img{
+  border-radius: 100px;
+  box-shadow: 0 0 30px rgb(0, 73, 0);
+  width: 200px;
+}
+.block_info{
+  box-shadow: 0 0 5px rgb(0, 255, 21);
+  background-color: black;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.text_info{
+  
+  padding: 20px;
+  display: grid;
+  width: 100%;
+  height: 100%;
+  text-align: justify;
+  
+}
+.text_info p{
+  
+  padding: 10px;
+  
+}
+.text_info h1{
+  font-family: "Shihan";
+  font-size: 4em;
+  font-weight: 100;
+  margin-bottom: 20px;
+  
+}
+.social{
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: black;
+  box-shadow: 0 0 5px rgb(242, 0, 255);
+}
+.social a{
+  text-decoration: none;
+  color: rgb(200, 0, 255);
+  border-radius: 10px;
+  padding: 4px;
+}
+a:hover{
+  background-color: white;
+
+}
+.social ul{
+  padding: 30px;
+}
+.social h2{
+  font-size: 4em;
+  font-weight: 100;
+  font-family: "Shihan";
+  text-align: center;
+  color: blueviolet;
+}
+.hobby{
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: black;
+  box-shadow: 0 0 5px rgb(242, 0, 255);
+
+}
+.hobby h2{
+  font-size: 4em;
+  font-weight: 100;
+  font-family: "Shihan";
+  text-align: center;
+  color: rgb(255, 8, 0);
+}
+.hobby li{
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+}
+.hobby ol{
+  padding: 30px;
+}
+.container{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.745);
+  align-items: center;
+  justify-self: center;
+  width: 70%;
+  margin: 20px;
+  padding: 30px;
+  height: auto;
+  box-shadow: 0 0 15px rgb(255, 2, 200);
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .container{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 90%;
+  
+  padding: 10px;
+
+}
+.block_info{
+  padding: 10px;
+  display: grid;
+  margin-bottom: 10px;
+
+}
+.img{
+  align-items: center;
+  justify-self: center;
+}
+.text_info p{
+   margin-top: 10px;
+  
+}
+.text_info h1{
+  font-size: 3em;
+  justify-self: center;
+}
+.hobby h2{
+  font-size: 3em;
+
+}
+.social h2{
+  font-size: 3em;
+
+}
+.hobby li{
+  
+  padding: 5px;
+}
+}
